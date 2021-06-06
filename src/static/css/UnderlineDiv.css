@@ -102,7 +102,7 @@
 }
 
 .left-to-right:hover:before {
-  animation: underline-animation 0.7s ease-in-out forwards;
+  animation: underline-animation 1.5s ease-in-out forwards;
 }
 
 @keyframes underline-animation {
@@ -116,4 +116,28 @@
     width: 0;
     right: 0;
   }
+}
+
+.left-to-right-hold
+{
+  position: relative;
+}
+
+.left-to-right-hold:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  background-color: grey;
+  transition: all .3s linear;
+}
+
+.left-to-right-hold:hover:before {
+  width: 100%;
+  left: 0;
+  right: auto;
+  transition: all .3s ease-out;
 }
