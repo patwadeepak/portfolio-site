@@ -1,12 +1,9 @@
-import { Typography } from "@material-ui/core";
-import "../static/css/UnderlineDiv.css";
+import '../static/css/UnderlineDiv.css';
 
-const UnderlineDiv = ({ text, size }) => {
+const UnderlineDiv = ({ text }) => {
   return (
-    <div>
-      <Typography variant={size} color="initial">
-        <span className="left-to-right-hold">{text}</span>
-      </Typography>
+    <div className='container' style={{ fontSize: '2vh', paddingTop: '50px' }}>
+      <span className='left-to-right-hold'>{text}</span>
     </div>
   );
 };

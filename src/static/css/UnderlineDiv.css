@@ -128,16 +128,16 @@
   position: absolute;
   width: 0;
   height: 2px;
-  bottom: 0;
+  bottom: -3px;
   left: auto;
   right: 0;
-  background-color: grey;
-  transition: all .3s linear;
+  background-color: rgb(0, 0, 0);
+  transition: all .2s linear;
 }
 
 .left-to-right-hold:hover:before {
   width: 100%;
   left: 0;
   right: auto;
-  transition: all .3s ease-out;
+  transition: all .2s ease-out;
 }

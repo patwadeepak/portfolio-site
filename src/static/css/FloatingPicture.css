@@ -1,21 +1,16 @@
-.picture-container{
-    display: grid;
-    place-items: center;
-}
-
 .images {
     transform-style: preserve-3d;
     perspective: 550px;   
 }
 
 .float-scroll {
-    padding: 25px;
     max-height: 650px;
-    transform: rotateX(-10deg);
+    width: 80%;
+    transform: rotateX(-5deg);
     backface-visibility: visible;
     transition: all 1s ease-in-out;
 }
 
 .float-scroll:hover{
-    transform: rotateX(10deg);
+    transform: rotateX(5deg);
 }
