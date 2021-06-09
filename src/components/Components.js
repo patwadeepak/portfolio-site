@@ -6,3 +6,4 @@ export { default as Main } from './Main';
 export { default as ProgressBar } from './ProgressBar';
 export { default as Contact } from './Contact';
 export { default as IntroText } from './IntroText';
+export { default as AnimatedCube } from './AnimatedCube';
