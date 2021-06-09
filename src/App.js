@@ -7,6 +7,7 @@ import {
   ProgressBar,
   Contact,
   IntroText,
+  AnimatedCube,
 } from './components/Components';
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
       <IntroText />
 
       <BrandGrid />
+
+      <AnimatedCube />
+
       <Contact />
     </div>
   );
